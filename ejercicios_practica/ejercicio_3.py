@@ -30,6 +30,9 @@ nombre_completo = nombre + ' ' + apellido
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
 
-cantidad_letras = len(nombre_completo)
+cantidad_letras_nombre = len(nombre)
+cantidad_letras_apellido = len(apellido)
+
+cantidad_letras = cantidad_letras_nombre + cantidad_letras_apellido
 
 print('La cantidad de letras que posee su nombre completo es', cantidad_letras) 
